@@ -10,6 +10,7 @@ const Home = () => {
     const product = useAppSelector((state: RootState) => state.cart);
     return (
         <div>
+            <h2>This is update Text</h2>
             <div className='p-12'>
                 <p data-testid='cart-length'>
                     Cart Length: {product?.products?.length}{' '}
